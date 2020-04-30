@@ -16,15 +16,20 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <meta-data
-            android:name="com.autonavi.indoor.locating.locatingdemo"
-            android:value="69c6c285407c34fb36c3b156d314f7ea" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".OnlineActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.autonavi.indoor.locating.locatingdemo"
+            android:value="69c6c285407c34fb36c3b156d314f7ea" />
+
+        <activity android:name=".MainActivity">
+
         </activity>
     </application>
 
